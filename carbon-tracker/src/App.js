@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={ctLogo} className="App-logo" alt="logo" />
-        <h1 className='Title'>Carbon Tracking App</h1>
+        <h2 className='Title'>Carbon Tracking App</h2>
       </header>
-      <div>
+      <div className='graph'>
         <CarbonData />
       </div>
     </div>
