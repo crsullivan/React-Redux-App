@@ -50,6 +50,7 @@ const CarbonFactors = (props) => {
     }  
 
     const mapStateToProps = (state) => {
+        console.log(state)
         return {
             carbonData: state.carbonData,
             loading: state.loading,

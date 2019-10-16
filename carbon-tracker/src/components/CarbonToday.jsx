@@ -19,7 +19,7 @@ const CarbonToday = (props) => {
             <div>
                 {props.carbonData.map(data => (
                     <RadialChart
-                        showLabels='true'
+                        showLabels={true}
                         data={[{angle: data.Coal, label:'Coal'}, {angle: data.Oil, label:'Oil'}, {angle: data['Dutch Imports'] + data['French Imports'] + data['Irish Imports'], label:'Imports'}, {angle: data['Gas (Open Cycle)'], label:'Gas (open)'}, {angle: data['Gas (Combined Cycle)'], label:'Gas (comb.)'}, {angle: data.Other, label:'Other'}]}
                         width={300}
                         height={300} />

@@ -3,7 +3,8 @@ import {LOAD_DATA, LOAD_SUCCESS, LOAD_FAILURE} from '../actions/index'
 const initialState = {
     carbonData: [],
     loading: false,
-    error: ''
+    error: '',
+    
 };
 
 const reducer = (state=initialState, action) => {
