@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { RadialChart } from 'react-vis';
 import {connect} from 'react-redux';
-import {fetchData} from '../actions/index';
+import { fetchData } from '../actions/index';
 
 const CarbonToday = (props) => {
 
