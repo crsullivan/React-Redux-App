@@ -1,8 +1,9 @@
 {
     "version": 2,
     "name": "carbon-tracker",
-    "builds": [{ "src": "carbon-tracker/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "builds": [{ "src": "/carbon-tracker/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
     "routes": [
-        { "src": "/(.*)", "dest": "carbon-tracker/$1" }
+        { "src": "/(.*)", "dest": "/carbon-tracker/$1" }
     ]
+
 }
